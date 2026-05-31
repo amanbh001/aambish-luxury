@@ -1,6 +1,5 @@
 {
   "version": 2,
-    "rootDirectory": "aambish",
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
