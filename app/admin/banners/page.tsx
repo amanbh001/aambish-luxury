@@ -20,17 +20,18 @@ interface Banner {
 
 type BannerFormData = Omit<Banner, '_id'>;
 
-const EMPTY: BannerFormData = {
+// Use 'satisfies' to keep the literal 'hero' while satisfying the union type
+const EMPTY = {
   title: '',
   subtitle: '',
   image: '',
   mobileImage: '',
   link: '',
   linkText: '',
-  position: 'hero',
+  position: 'hero' as const,
   isActive: true,
   sortOrder: 0,
-};
+} satisfies BannerFormData;
 
 const POSITIONS: Banner['position'][] = ['hero', 'mid', 'offer', 'category'];
 
@@ -60,6 +61,7 @@ export default function AdminBannersPage() {
     setShowForm(true);
   };
   const openEdit = (b: Banner) => {
+    // Explicitly cast the new object to BannerFormData
     setForm({
       title: b.title,
       subtitle: b.subtitle || '',
@@ -70,7 +72,7 @@ export default function AdminBannersPage() {
       position: b.position,
       isActive: b.isActive,
       sortOrder: b.sortOrder,
-    });
+    } as BannerFormData);
     setEditId(b._id);
     setShowForm(true);
   };
