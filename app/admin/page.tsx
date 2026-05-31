@@ -80,7 +80,7 @@ export default function AdminDashboard() {
         {/* Main */}
         <main style={{ flex: 1, padding: '28px 32px', overflow: 'auto' }}>
           <h1 style={{ fontFamily: 'Georgia, serif', fontSize: '1.8rem', fontWeight: 300, color: '#1A1A18', marginBottom: '6px' }}>Dashboard</h1>
-          <p style={{ fontSize: '13px', color: '#8A8A7A', marginBottom: '28px' }}>Welcome back. Here's an overview of your store.</p>
+          <p style={{ fontSize: '13px', color: '#8A8A7A', marginBottom: '28px' }}>Welcome back. Here is an overview of your store.</p>
 
           {/* Stats */}
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '14px', marginBottom: '32px' }}>

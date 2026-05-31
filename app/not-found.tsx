@@ -10,7 +10,7 @@ export default function NotFound() {
         This page seems to have wandered off
       </h1>
       <p style={{ fontFamily: 'DM Sans, sans-serif', color: '#8A8A7A', maxWidth: '380px', lineHeight: 1.8, marginBottom: '40px', fontSize: '14px' }}>
-        The page you're looking for doesn't exist or may have moved. Let's get you back to something beautiful.
+        The page you are looking for does not exist or may have moved. Let us get you back to something beautiful.
       </p>
       <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', justifyContent: 'center' }}>
         <Link href="/" style={{ padding: '13px 32px', background: 'linear-gradient(135deg,#2C3528,#1A1A18)', color: '#FAFAF7', fontFamily: 'DM Sans, sans-serif', fontSize: '12px', fontWeight: 600, letterSpacing: '0.12em', textTransform: 'uppercase', borderRadius: '2px', textDecoration: 'none', boxShadow: '0 4px 20px rgba(44,53,40,0.18)' }}>
