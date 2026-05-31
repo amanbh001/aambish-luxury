@@ -1,0 +1,45 @@
+{
+  "name": "aambish-luxury",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "mongoose": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.14",
+    "sharp": "^0.33.4",
+    "zustand": "^4.5.4",
+    "react-hot-toast": "^2.4.1",
+    "framer-motion": "^11.3.19",
+    "swiper": "^11.1.9",
+    "react-zoom-pan-pinch": "^3.4.2",
+    "next-seo": "^6.6.0",
+    "schema-dts": "^1.1.2",
+    "react-share": "^5.1.0",
+    "cookie": "^0.6.0",
+    "cloudinary": "^2.3.1",
+    "razorpay": "^2.9.2",
+    "react-intersection-observer": "^9.13.0",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/cookie": "^0.6.0",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}
