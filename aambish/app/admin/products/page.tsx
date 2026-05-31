@@ -255,7 +255,7 @@ export default function AdminProductsPage() {
             <div style={{ display: 'flex', borderBottom: '1px solid #ECEAE2', background: '#FAFAF7' }}>
               {FORM_TABS.map(t => (
                 <button key={t.key} onClick={() => setActiveTab(t.key)}
-                  style={{ padding: '14px 24px', fontSize: '12px', fontWeight: 500, color: activeTab === t.key ? '#2C3528' : '#8A8A7A', borderBottom: activeTab === t.key ? '2px solid #C9A96E' : '2px solid transparent', background: 'none', border: 'none', borderBottom: activeTab === t.key ? '2px solid #C9A96E' : '2px solid transparent', cursor: 'pointer', transition: 'all 0.2s', letterSpacing: '0.04em' }}>
+                  style={{ padding: '14px 24px', fontSize: '12px', fontWeight: 500, color: activeTab === t.key ? '#2C3528' : '#8A8A7A', background: 'none', border: 'none', borderBottom: activeTab === t.key ? '2px solid #C9A96E' : '2px solid transparent', cursor: 'pointer', transition: 'all 0.2s', letterSpacing: '0.04em' }}>
                   {t.label}
                 </button>
               ))}
