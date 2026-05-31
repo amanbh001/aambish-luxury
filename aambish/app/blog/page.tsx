@@ -18,9 +18,9 @@ async function getPosts() {
 }
 
 const SAMPLE_POSTS = [
-  { _id: '1', slug: 'how-to-style-minimalist-jewellery', title: 'How to Style Minimalist Jewellery for Every Occasion', excerpt: 'Minimalism in jewellery is not about wearing less — it's about wearing intentionally. Here's how to curate a minimal stack that speaks volumes.', featuredImage: '/images/blog-1.jpg', category: 'Styling', readTime: 5, createdAt: '2025-04-10' },
+  { _id: '1', slug: 'how-to-style-minimalist-jewellery', title: 'How to Style Minimalist Jewellery for Every Occasion', excerpt: 'Minimalism in jewellery is not about wearing less — its about wearing intentionally. Heres how to curate a minimal stack that speaks volumes.', featuredImage: '/images/blog-1.jpg', category: 'Styling', readTime: 5, createdAt: '2025-04-10' },
   { _id: '2', slug: 'gold-vs-gold-vermeil-explained', title: 'Gold vs Gold Vermeil: What You Actually Need to Know', excerpt: 'Not all gold is created equal. We break down the differences between solid gold, gold-filled, and gold vermeil — and which one is right for you.', featuredImage: '/images/blog-2.jpg', category: 'Education', readTime: 7, createdAt: '2025-03-22' },
-  { _id: '3', slug: 'jewellery-care-guide', title: 'The Complete Guide to Caring for Your Fine Jewellery', excerpt: 'Your jewellery is an investment. With the right care, it can last a lifetime. Here's everything you need to know to keep your pieces gleaming.', featuredImage: '/images/blog-3.jpg', category: 'Care', readTime: 6, createdAt: '2025-02-18' },
+  { _id: '3', slug: 'jewellery-care-guide', title: 'The Complete Guide to Caring for Your Fine Jewellery', excerpt: 'Your jewellery is an investment. With the right care, it can last a lifetime. Heres everything you need to know to keep your pieces gleaming.', featuredImage: '/images/blog-3.jpg', category: 'Care', readTime: 6, createdAt: '2025-02-18' },
 ];
 
 export default async function BlogPage() {
